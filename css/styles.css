@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CAC0B3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+h1 {
+color: #001233;
+font-size: 40px;
+margin-top: 50px;
+margin-bottom: 25px;
+}   
+
+#container {
+    background-color: #FF595A;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#container p:hover {
+    background-color: #001233;
+    color: #CAC0B3;
+    transition: background-color 0.3s;
+  }

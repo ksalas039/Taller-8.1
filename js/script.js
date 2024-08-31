@@ -22,6 +22,6 @@ function showData(dataArray) {
 fetch(DATA_URL)
 .then(res => res.json())
 .then(response => {
-    console.log(response.students);
+    console.log(response.students)
  showData(response.students)
 })
